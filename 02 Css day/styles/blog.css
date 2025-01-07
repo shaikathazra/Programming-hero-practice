@@ -1,0 +1,46 @@
+header{
+
+    height: 300px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header h2{
+    text-align: center;
+    padding-top: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    /* background-color: rgba(0, 0, 0, 0.544); */
+
+}
+
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.first {
+     /* display: none;  */
+    /* visibility: hidden; */
+    /* visibility: collapse; */
+    background-color: goldenrod;
+
+}
+.blog{
+
+    margin: 20px;
+    border: 10px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(36, 205, 98);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.incidunt{
+    border: 2px solid greenyellow;
+    display: block;
+    padding: 2px;
+}
+li{
+    /* display: inline; */
+
+}

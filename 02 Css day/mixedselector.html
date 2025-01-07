@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        p{
+            color: red;
+            font-weight: 600;
+        }
+        #last{
+            font-size: 22px;
+        }
+        .red{
+            color: yellowgreen;
+            font-weight: 900;
+        }
+        .chuikna{
+            font-weight: 100;
+        }
+        .kala, .kana{
+            color: black;
+        }
+        .blog{
+            background-color: aqua;
+            color: black;
+        }
+        input{
+
+            background-color: red;
+            color: yellow;
+        }
+        input[type="password"] {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>testing selectors</h2>
+
+    <p class="red">my css testing1</p>
+    <p class="red chuikna">my css testing2</p>
+    <p>my css testing3</p>
+    <p class="kana">my css testing4</p>
+    <p>my css testing5</p>
+    <p class="chuikna kala">my css testing6</p>
+    <p id="last">my css testing7</p>
+
+
+    <div class="blog">
+        <h3>Blog</h3>
+        <p class="kala">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis iure, facere voluptatem repellat asperiores iusto iste eius esse sapiente sequi. Pariatur autem impedit doloremque unde tempore dolores velit saepe ipsum.</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis dolore in tenetur ipsa fugit temporibus ut nihil alias quam dolorem, sed autem incidunt vitae obcaecati voluptatem cum minus distinctio suscipit!</p>
+    </div>
+
+    <input type="text"><br><br>
+    <input type="password">
+</body>
+</html>
